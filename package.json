@@ -1,16 +1,22 @@
 {
-  "name": "modern-state-management",
-  "version": "1.0.0",
-  "description": "modern state management with hooks",
-  "main": "index.js",
-  "scripts": {
-    "start": "mdx-deck state-management.mdx",
-    "build": "mdx-deck build state-management.mdx",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "DJ Shamblin",
-  "license": "MIT",
-  "devDependencies": {
-    "mdx-deck": "^4.1.1"
-  }
+    "name": "modern-state-management",
+    "version": "1.0.0",
+    "description": "modern state management with hooks",
+    "main": "index.js",
+    "scripts": {
+        "start": "mdx-deck src/state-management.mdx",
+        "build": "mdx-deck build src/state-management.mdx",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "DJ Shamblin",
+    "license": "MIT",
+    "devDependencies": {
+        "mdx-deck": "^4.1.1",
+        "prettier": "^2.0.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "dependencies": {
+        "react-live": "^2.2.2"
+    }
 }
